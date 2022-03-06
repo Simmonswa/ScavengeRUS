@@ -13,6 +13,8 @@ namespace BlazorApp1
 {
     public class Program
     {
+
+        //testing comment
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
