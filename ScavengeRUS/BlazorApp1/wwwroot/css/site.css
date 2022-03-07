@@ -27,7 +27,7 @@ app {
 }
 
 .main {
-    flex: 1;
+    flex: 0;
 }
 
     .main .top-row {
@@ -152,7 +152,7 @@ app {
 
 @media (min-width: 768px) {
     app {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .sidebar {
@@ -181,3 +181,10 @@ app {
         display: block;
     }
 }
+
+.indexForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
